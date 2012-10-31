@@ -15,6 +15,7 @@ Memory-Hierarchy-simulator
          
   Code exists to test various combinations of parameter settings to verify correct operation and to report cache performance statistics.
   The simulated memory system is byte addressable and 32 bits wide. This means the following:
+
          - A word is 32 bits (4 bytes).
          - Clients can read and write bytes or words of memory.
          - Clients use byte addresses for all accesses. The variable "address" always
